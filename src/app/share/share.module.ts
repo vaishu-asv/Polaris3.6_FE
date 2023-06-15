@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ShareRoutingModule } from './share-routing.module';
-import { CreatewhatifComponent } from './createwhatif/createwhatif.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
-    CreatewhatifComponent
+    HeaderComponent
   ],
   imports: [
     CommonModule,
